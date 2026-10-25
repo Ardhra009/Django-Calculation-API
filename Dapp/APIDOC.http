@@ -1,0 +1,101 @@
+###
+post http://127.0.0.1:8000/calculator/
+Content-Type: application/json
+
+{
+    "num1":50,
+    "num2":30
+}
+
+###
+post http://127.0.0.1:8000/sub/
+Content-Type: application/json
+
+{
+    "num1":6000,
+    "num2":5620
+}
+
+###
+post http://127.0.0.1:8000/mul/
+Content-Type:application/json
+
+{
+    "num1":50,
+    "num2":650
+}
+
+###
+post http://127.0.0.1:8000/div/
+Content-Type:application/json
+
+{
+    "num1":50,
+    "num2":650
+}
+
+###
+post http://127.0.0.1:8000/fdiv/
+Content-Type:application/json
+
+{
+    "num1":505233,
+    "num2":650
+}
+
+
+###
+post http://127.0.0.1:8000/percentage/
+Content-Type:application/json
+
+{
+    "score":85,
+    "total":100
+}
+
+###
+post http://127.0.0.1:8000/bmi/
+Content-Type:application/json
+
+{
+    "weight":85,
+    "height":100
+}
+
+
+###
+post http://127.0.0.1:8000/area/
+Content-Type:application/json
+
+{
+    "length":850,
+    "breadth":100
+}
+
+###
+post http://127.0.0.1:8000/age/
+Content-Type:application/json
+
+{
+    "birth year":2005,
+    "current year":2026
+}
+
+###
+post http://127.0.0.1:8000/simpleintrest/
+Content-Type:application/json
+
+{
+    "principle":10000,
+    "rate":5,
+    "time":2
+}
+
+###
+post http://127.0.0.1:8000/bill/
+Content-Type:application/json
+
+{
+    "units":150,
+    "rate":6
+}
